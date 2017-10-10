@@ -33,7 +33,7 @@ function outerFunction() {
   }
 }
 
-var myScope = outerFunction();
+var myScope = outerFunction()
 
 // the stringified version of `innerScope()`
-myScope;
+console.log(myScope)
